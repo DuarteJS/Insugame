@@ -1,0 +1,54 @@
+body {
+    background-color: #252525;
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url(fonts/Anton/Anton-Regular.ttf);
+}
+
+:root {
+    --roxo-insugame: #5A1DA9;
+    --laranja-insugame: #FF8A00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.container-grid {
+    width: 90vw;
+    max-width: 100%;
+
+    margin: 0 auto;
+}
+
+
+
+
+header {
+    background: linear-gradient(90deg, rgba(25, 2, 54, 1) 0%, rgba(88, 41, 149, 1) 36%);
+    height: 220px;
+
+}
+
+
+header div.container-grid {
+    /*porcentagem- unidade relativa ao elemento Pai*/
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+  
+    
