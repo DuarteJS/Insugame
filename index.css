@@ -35,6 +35,7 @@ header {
     background: rgb(25, 2, 54);
     background: linear-gradient(90deg, rgba(25, 2, 54, 1) 11%, rgba(44, 14, 82, 1) 29%, rgba(63, 25, 111, 1) 52%, rgba(88, 41, 149, 1) 100%);
     background-repeat: no-repeat;
+    
 }
 
 
@@ -52,7 +53,8 @@ header div.container-grid {
 
 #logo {
     height: auto;
-    width: 100px;
+    width: 60px;
+    margin: 10px 0 10px 0;
 }
 
 .menu {
@@ -69,6 +71,7 @@ header div.container-grid {
     align-items: center;
     justify-content: space-around;
     text-transform: uppercase;
+    margin: 10px 0 10px 0;
   
 
 
@@ -95,17 +98,37 @@ header div.container-grid {
     transition: text-decoration 500ms ease;
 }
 
-.banner {
+.banner  {
     height: 100vh;
-    background-image: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(28,28,28,1) 26%, rgba(71,71,71,1) 57%, rgba(102,102,102,1) 100%), url(img/gamificacao-na-academia-de-ginastica-gamefic-1024x749\ 1.png);
+    width: 100%;
+   
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.9529061624649859) 0%, rgba(0,0,0,0.9304971988795518) 17%, rgba(102,102,102,0) 100%), url(img/pixel-art-illustration-work-desk-background-pixelated-work-desk-work-desk-office-background-pixelated-for-the-pixel-art-game-and-icon-for-website-and-video-game-old-school-retro-vector\ 1.png);
     background-repeat: no-repeat;
 
-    background-position: 165% 40%;
+    /* background-position: 100% 40%; */
 
 
 }
+.container-grid conteudo-banner p {
+ height: 100%;
+ width: 80%;
+ display: flex;
+ 
 
-p {
-    font-family: 'Anton';
+ 
+
+}
+
+.conteudo-banner p {
+    color: white;
+font-family: 'Anton';
+font-size: 30px;
+
+
+ 
+}
+.conteudo-banner span {
+
+ 
 
 }
