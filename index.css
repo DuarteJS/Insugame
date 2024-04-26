@@ -226,7 +226,7 @@ button  h3 {
 .cases1 {
 
     background-color: var(--roxo-insugame);
-   width: 80%;
+   width: 60%;
     height: 400px;
     margin: 50px auto ;
 
@@ -245,11 +245,17 @@ button  h3 {
 
 
 }
+.cases1 img{
+    display: flex;
+    align-items: end;
+
+    width: 100px;
+}
 .cases2 {
     background-color: var(--roxo-insugame);
-    width: 80%;
+    width: 60%;
     height: 400px;
-    margin: 50px auto ;
+    margin: 60px auto ;
 
     font-family: 'Teko';
     color: white;
@@ -267,8 +273,8 @@ button  h3 {
     font-family: 'Anton';
     color: white;
     font-size: 40px;
-    margin: 20px auto;
-
+    margin: 40px auto;
+    
     background-color: var(--roxo-insugame);
     width: 1000px;
     height: 100px;
@@ -281,7 +287,9 @@ button  h3 {
     padding-top: 15px;
 }
 #contato {
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     
 }
 #contato form{
@@ -301,6 +309,10 @@ button  h3 {
    flex-direction: column;
 
     height: auto;
+
+}
+#contato form input::placeholder {
+
 
 }
 
@@ -344,12 +356,74 @@ button  h3 {
     align-items: center;
 }
 
-#sobre {
-    font-family: 'Anton';
-    font-size: 45px;
-    color: white;
-    display: flex;
-    text-align: center;
+#sobre h2{
+background-color: var(--roxo-insugame);
+font-family: 'Anton';
+color: white;
+width: 1000px;
+height: 100px;
+font-size: 40px;
 
-    margin: 30px 10px 20px 10px ;
+
+margin: 50px auto ;
+
+ text-align: center;
+
+    text-transform: uppercase;
+    font-weight: 50;
+    border-radius: 30px;
+
+    padding-top: 20px;
+
 }
+#sobre{
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#sobre p{
+    font-family: 'Anton';
+    font-size: 38px;
+    color: white;
+    
+    text-align: justify;
+    width: ;
+    
+
+    margin: 40px;
+
+    
+}
+#sobre img{
+   
+    
+    align-items: center;
+    
+    width: 60%;
+    display: flex;
+      border-radius: 30px;
+    
+    
+
+}
+.imagem {
+ background-color: var(--roxo-insugame);
+    border-radius: 30px;
+    width: 450px;
+
+    height: 400px;
+    align-items: center;
+    display: flex;
+   justify-content: space-around;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+footer h2{
+    background-color: var(--roxo-insugame);
+    font-family: 'Anton';
+}
+
+
+
+
