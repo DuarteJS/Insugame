@@ -83,7 +83,7 @@ header div.container-grid {
 
 .menu a {
     font-family: 'Anton';
-    font-size: 20px;
+    font-size: 25px;
     src: url(fonts/Anton/Anton-Regular.ttf);
 
     color: white;
@@ -104,12 +104,12 @@ header div.container-grid {
     height: 100vh;
     width: 100%;
 
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 17%, rgba(102, 102, 102, 0) 100%), url(img/gamificacao-na-academia-de-ginastica-gamefic-1024x749\ 1.png);
+    /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 17%, rgba(102, 102, 102, 0) 100%), url(img/gamificacao-na-academia-de-ginastica-gamefic-1024x749\ 1.png); */
     background-repeat: no-repeat;
     background-size: cover;
-    
 
-   
+    background-image: url(img/desktop-wallpaper-mario-pixel-nintendo-room-night-computer-video-game-nintendo-computer\ 1.png);
+
 
     /* background-position: 100% 40%; */
 
@@ -148,12 +148,13 @@ header div.container-grid {
     color: white;
     font-size: 30px;
 
+
     text-align: center;
-    /* margin-bottom: 10px; */
-    margin-bottom: 20px;
+
+    /* margin-bottom: 20px; */
 }
 
-.botao-banner  {
+.botao-banner {
     background-color: var(--roxo-insugame);
     width: 200px;
     height: 150px;
@@ -162,7 +163,7 @@ header div.container-grid {
     padding: 15px 50px;
     border-radius: 30px;
     border: none;
-    
+
 
 
     border-radius: 30px;
@@ -170,13 +171,13 @@ header div.container-grid {
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
- .botao-banner:hover {
-    transform: translateY(-5px); 
-    
+.botao-banner:hover {
+    transform: translateY(-5px);
+
     /* box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); */
 }
 
-.botao-banner  h3 {
+.botao-banner h3 {
     font-family: 'Anton';
     color: white;
 
@@ -193,13 +194,19 @@ header div.container-grid {
 .banner-cases {
     margin-top: 50px;
     padding: 0px 200px 0 200px;
-    
-   
 
-    
+
+
+
 
 }
+.container-grid{
+    width: 80vw;
+    max-width: 1400px;
 
+    margin: 0 auto;
+    
+}
 .banner-cases h2 {
     background-color: var(--roxo-insugame);
     width: 1000px;
@@ -218,52 +225,54 @@ header div.container-grid {
 
     padding-top: 20px;
 
-   
-    
+
+
 
 }
 
 .cases1 {
 
     background-color: var(--roxo-insugame);
-   width: 60%;
+    width: 60%;
     height: 400px;
-    margin: 50px auto ;
+    margin: 50px auto;
     display: flex;
     align-items: end;
 
-   
 
-  
 
-    padding: 70px 30px 80px 40px ;
+
+
+    padding: 70px 30px 80px 40px;
 
     border-radius: 30px;
-    
-   
-    
+
+
+
 
 
 
 
 
 }
-.cases1 img{
+
+.cases1 img {
     display: flex;
-    
+
 
     width: 500px;
 
     border-radius: 30px;
     margin-left: 30px;
 
-    
 
-    
 
-  
+
+
+
 }
-.cases1 p{
+
+.cases1 p {
     font-family: 'Teko';
     color: white;
     font-size: 35px;
@@ -271,13 +280,14 @@ header div.container-grid {
     width: 350px;
 
     margin-bottom: 10px;
-    
+
 }
+
 .cases2 {
     background-color: var(--roxo-insugame);
     width: 60%;
     height: 400px;
-    margin: 50px auto ;
+    margin: 50px auto;
     display: flex;
     align-items: end;
 
@@ -285,15 +295,16 @@ header div.container-grid {
     color: white;
     font-size: 30px;
 
-    
 
-    padding: 70px 0 80px 40px ;
+
+    padding: 70px 0 80px 40px;
 
     border-radius: 30px;
 
 
 }
-.cases2 p{
+
+.cases2 p {
     font-family: 'Teko';
     color: white;
     font-size: 35px;
@@ -301,32 +312,38 @@ header div.container-grid {
     margin-right: 30px;
     margin-bottom: 50px;
 
- 
 
-   
 
-    
+
+
+
 }
 
-.cases2 img{
-    
+.cases2 img {
+
     display: flex;
-    
+
 
     width: 400px;
 
     border-radius: 30px;
-   
+    margin-left: 20px;
+
 
 }
 
+.container-grid{
+    width: 80vw;
+    max-width: 1400px;
 
-#contato h2{
+    margin: 0 auto;
+}
+#contato h2 {
     font-family: 'Anton';
     color: white;
     font-size: 40px;
     margin: 40px auto;
-    
+
     background-color: var(--roxo-insugame);
     width: 1000px;
     height: 100px;
@@ -338,13 +355,15 @@ header div.container-grid {
 
     padding-top: 15px;
 }
+
 #contato {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 }
-#contato form{
+
+#contato form {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -355,14 +374,15 @@ header div.container-grid {
 .campo {
     margin-top: 20px;
     margin-bottom: 30px;
-    
 
-   display: flex;
-   flex-direction: column;
+
+    display: flex;
+    flex-direction: column;
 
     height: auto;
 
 }
+
 #contato form input::placeholder {
     font-family: 'Teko';
     color: white;
@@ -383,7 +403,7 @@ header div.container-grid {
 
 }
 
-#contato .campo input{
+#contato .campo input {
     font-family: 'Teko';
     width: 900px;
     height: 60px;
@@ -398,6 +418,7 @@ header div.container-grid {
 
 
 }
+
 .botao {
 
     background-color: var(--roxo-insugame);
@@ -410,38 +431,46 @@ header div.container-grid {
     border: none;
 
     border-radius: 30px;
-  
+
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
-.botao:hover{ transform: translateY(-5px); 
-    
-  
+
+.botao:hover {
+    transform: translateY(-5px);
+
+
 }
 
-.botao  {
+.botao {
     font-family: 'Anton';
     color: white;
 
     align-items: center;
 
-    font-size: 40px;
+    font-size: 25px;
     text-transform: uppercase;
 
     font-weight: 50;
 }
+.container-grid{
+    width: 80vw;
+    max-width: 1400px;
 
-#sobre h2{
-background-color: var(--roxo-insugame);
-font-family: 'Anton';
-color: white;
-width: 1000px;
-height: 100px;
-font-size: 40px;
+    margin: 0 auto;
+}
 
+#sobre h2 {
+    background-color: var(--roxo-insugame);
+    font-family: 'Anton';
+    color: white;
+    width: 1000px;
+    height: 100px;
+    font-size: 40px;
 
-margin: 50px auto ;
+    font-weight: 100;
+    margin: 50px auto;
 
- text-align: center;
+    text-align: center;
 
     text-transform: uppercase;
     font-weight: 50;
@@ -450,48 +479,52 @@ margin: 50px auto ;
     padding-top: 20px;
 
 }
-#sobre{
-     display: flex;
+
+#sobre {
+    display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 }
-#sobre p{
+
+#sobre p {
     font-family: 'Anton';
     font-size: 38px;
     color: white;
-    
+
     text-align: justify;
-    
-    
+
+
 
     margin: 40px;
 
-    
+
 }
-#sobre img{
-   
-    
+
+#sobre img {
+
+
     align-items: center;
-    
+
     width: 60%;
     display: flex;
-      border-radius: 30px;
+    border-radius: 30px;
 
-      
-    
-    
+
+
+
 
 }
+
 .imagem {
- background-color: var(--roxo-insugame);
+    background-color: var(--roxo-insugame);
     border-radius: 30px;
     width: 450px;
 
     height: 400px;
     align-items: center;
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 
     margin-bottom: 50px;
@@ -499,7 +532,7 @@ margin: 50px auto ;
 
 
 
-footer .contato h2{
+footer .contato h2 {
     background-color: var(--roxo-insugame);
     font-family: 'Anton';
     width: 100%;
@@ -508,7 +541,12 @@ footer .contato h2{
     color: white;
 
 }
+.container-grid{
+    width: 80vw;
+    max-width: 1400px;
 
+    margin: 0 auto;
+}
 .contato {
     background-color: var(--roxo-insugame);
     width: 100%;
@@ -517,50 +555,101 @@ footer .contato h2{
     padding-top: 20px;
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
+.container-grid{
+    width: 80vw;
+    max-width: 1400px;
 
-.contato2{
+    margin: 0 auto;
+}
+.contato2 {
     background-color: rgba(90, 29, 169, 52%);
     align-items: center;
     display: flex;
     flex-direction: column;
-   
+
     height: 280px;
-    
+
 }
 
-.icones{
+.icones {
     width: 20%;
     display: flex;
     justify-content: space-around;
-   margin-top: 70px;
+    margin-top: 70px;
 }
 
-.icones img{
+.icones img {
     width: 60px;
     margin-top: 60px;
     transform: translateY(-5px);
 }
 
-footer p{
+footer p {
     font-family: 'Anton';
     font-size: 40px;
     color: white;
 }
-@media screen and (max-width: 1400px) {
-    .cases1{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 45%;
-    height: 585px;
-    align-items: center;
-    padding: 50px 30px 80px 40px;
-}
-.cases1 img{
-    margin-left: none;
-    width: 450px;
-    margin-top: 20px;
-}
-}
 
+@media screen and (max-width: 1200px) {
+    .menu a {
+        font-size: 22px;
+    }
 
+    header {
+        width: 118%;
 
+    }
+
+    .banner {
+        width: 118%;
+    }
+
+    .contato {
+        width: 118%;
+    }
+
+    .contato2 {
+        width: 118%;
+    }
+
+    .cases1 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 45%;
+        height: 585px;
+        align-items: center;
+        padding: 50px 30px 80px 40px;
+    }
+
+    .cases1 img {
+        margin-left: none;
+        margin-right: 10px;
+        width: 450px;
+        margin-top: 0;
+    }
+
+    .cases1 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 45%;
+        height: 585px;
+        align-items: center;
+        padding: 50px 30px 80px 40px;
+    }
+
+    .cases2 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 45%;
+        height: 585px;
+        align-items: center;
+        padding: 50px 30px 80px 40px;
+    }
+
+    .cases2 img {
+        margin-left: none;
+        width: 450px;
+        margin-top: 20px;
+
+    }
+}
