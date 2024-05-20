@@ -191,17 +191,19 @@ header div.container-grid {
 
 .banner-cases {
     margin-top: 50px;
+<<<<<<< HEAD
    
 
 
 
 
 
+=======
+    padding: 0px 200px 0 200px;
+>>>>>>> c1264407d15f64ff55cb9a2b97381e383ba87d2a
 }
-.container-grid{
-    width: 80vw;
-    max-width: 1400px;
 
+<<<<<<< HEAD
     margin: 0 auto;
     
 }
@@ -212,9 +214,11 @@ header div.container-grid {
     display: flex;
     justify-content: space-between;
 }
+=======
+>>>>>>> c1264407d15f64ff55cb9a2b97381e383ba87d2a
 .banner-cases h2 {
     background-color: var(--roxo-insugame);
-    width: 1000px;
+    width: 100%;
     height: 100px;
     margin: 0 auto;
 
@@ -337,12 +341,7 @@ header div.container-grid {
 
 }
 
-.container-grid{
-    width: 80vw;
-    max-width: 1400px;
 
-    margin: 0 auto;
-}
 #contato h2 {
     font-family: 'Anton';
     color: white;
@@ -465,18 +464,12 @@ header div.container-grid {
 
     font-weight: 50;
 }
-.container-grid{
-    width: 80vw;
-    max-width: 1400px;
-
-    margin: 0 auto;
-}
 
 #sobre h2 {
     background-color: var(--roxo-insugame);
     font-family: 'Anton';
     color: white;
-    width: 1000px;
+    width: 100%;
     height: 100px;
     font-size: 40px;
 
@@ -556,6 +549,10 @@ footer .contato h2 {
     color: white;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c1264407d15f64ff55cb9a2b97381e383ba87d2a
 .contato {
     background-color: var(--roxo-insugame);
     width: 100%;
