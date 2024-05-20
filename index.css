@@ -30,9 +30,6 @@ body {
 
 }
 
-
-
-
 header {
     background: rgb(25, 2, 54);
     background: linear-gradient(90deg, rgba(25, 2, 54, 1) 11%, rgba(44, 14, 82, 1) 29%, rgba(63, 25, 111, 1) 52%, rgba(88, 41, 149, 1) 100%);
@@ -103,31 +100,31 @@ header div.container-grid {
 .banner {
     height: 100vh;
     width: 100%;
-
+    
     /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 17%, rgba(102, 102, 102, 0) 100%), url(img/gamificacao-na-academia-de-ginastica-gamefic-1024x749\ 1.png); */
     background-repeat: no-repeat;
     background-size: cover;
-
+    
     background-image: url(img/desktop-wallpaper-mario-pixel-nintendo-room-night-computer-video-game-nintendo-computer\ 1.png);
-
-
+    
+    
     /* background-position: 100% 40%; */
-
-
+    
+    
 }
 
 .conteudo-banner {
     height: 100%;
     width: 100%;
-
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-
+    
     /* margin-bottom: 30px; */
     backdrop-filter: blur(3px);
-
+    
     padding-bottom: 50px;
 }
 
@@ -147,10 +144,10 @@ header div.container-grid {
     font-weight: 100;
     color: white;
     font-size: 30px;
-
-
+    
+    
     text-align: center;
-
+    
     /* margin-bottom: 20px; */
 }
 
@@ -158,6 +155,7 @@ header div.container-grid {
     background-color: var(--roxo-insugame);
     width: 200px;
     height: 150px;
+    
     margin: 100px 600px 0 600px;
     align-items: center;
     padding: 15px 50px;
@@ -193,7 +191,7 @@ header div.container-grid {
 
 .banner-cases {
     margin-top: 50px;
-    padding: 0px 200px 0 200px;
+   
 
 
 
@@ -206,6 +204,13 @@ header div.container-grid {
 
     margin: 0 auto;
     
+}
+
+.container-card{
+    width: 385px;
+
+    display: flex;
+    justify-content: space-between;
 }
 .banner-cases h2 {
     background-color: var(--roxo-insugame);
@@ -233,7 +238,7 @@ header div.container-grid {
 .cases1 {
 
     background-color: var(--roxo-insugame);
-    width: 60%;
+    width: 900px;
     height: 400px;
     margin: 50px auto;
     display: flex;
@@ -277,7 +282,7 @@ header div.container-grid {
     color: white;
     font-size: 35px;
 
-    width: 350px;
+    
 
     margin-bottom: 10px;
 
@@ -285,7 +290,7 @@ header div.container-grid {
 
 .cases2 {
     background-color: var(--roxo-insugame);
-    width: 60%;
+    width: 900px;
     height: 400px;
     margin: 50px auto;
     display: flex;
@@ -345,7 +350,7 @@ header div.container-grid {
     margin: 40px auto;
 
     background-color: var(--roxo-insugame);
-    width: 1000px;
+    width: 100%;
     height: 100px;
 
     text-transform: uppercase;
@@ -418,13 +423,21 @@ header div.container-grid {
 
 
 }
+.container-grid #botao{
+  
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
 
 .botao {
 
     background-color: var(--roxo-insugame);
     width: 200px;
     height: 150px;
-    margin: 100px 600px 0 600px;
+    
+    display: flex;
     align-items: center;
     padding: 15px 50px;
     border-radius: 30px;
@@ -441,7 +454,7 @@ header div.container-grid {
 
 }
 
-.botao {
+.botao h2{
     font-family: 'Anton';
     color: white;
 
@@ -489,14 +502,14 @@ header div.container-grid {
 
 #sobre p {
     font-family: 'Anton';
-    font-size: 38px;
+    font-size: 35px;
     color: white;
 
     text-align: justify;
 
 
 
-    margin: 40px;
+    margin-bottom: 40px;
 
 
 }
@@ -521,6 +534,7 @@ header div.container-grid {
     border-radius: 30px;
     width: 450px;
 
+    margin-left: 30%;
     height: 400px;
     align-items: center;
     display: flex;
@@ -538,14 +552,9 @@ footer .contato h2 {
     width: 100%;
     font-size: 40px;
 
+    font-weight: 100;
     color: white;
 
-}
-.container-grid{
-    width: 80vw;
-    max-width: 1400px;
-
-    margin: 0 auto;
 }
 .contato {
     background-color: var(--roxo-insugame);
@@ -555,12 +564,7 @@ footer .contato h2 {
     padding-top: 20px;
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
-.container-grid{
-    width: 80vw;
-    max-width: 1400px;
 
-    margin: 0 auto;
-}
 .contato2 {
     background-color: rgba(90, 29, 169, 52%);
     align-items: center;
@@ -571,6 +575,13 @@ footer .contato h2 {
 
 }
 
+.conteudo-contato{
+    display: grid;
+    justify-content: center;
+}
+
+
+
 .icones {
     width: 20%;
     display: flex;
@@ -579,8 +590,8 @@ footer .contato h2 {
 }
 
 .icones img {
-    width: 60px;
-    margin-top: 60px;
+    width: 70px;
+    margin: 60px 20px 0 20px;
     transform: translateY(-5px);
 }
 
@@ -596,20 +607,20 @@ footer p {
     }
 
     header {
-        width: 118%;
+        width: 100%;
 
     }
 
     .banner {
-        width: 118%;
+        width: 100%;
     }
 
     .contato {
-        width: 118%;
+        width: 100%;
     }
 
     .contato2 {
-        width: 118%;
+        width: 100%;
     }
 
     .cases1 {
@@ -652,4 +663,5 @@ footer p {
         margin-top: 20px;
 
     }
+
 }
