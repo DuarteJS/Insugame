@@ -100,31 +100,31 @@ header div.container-grid {
 .banner {
     height: 100vh;
     width: 100%;
-    
+
     /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 17%, rgba(102, 102, 102, 0) 100%), url(img/gamificacao-na-academia-de-ginastica-gamefic-1024x749\ 1.png); */
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     background-image: url(img/desktop-wallpaper-mario-pixel-nintendo-room-night-computer-video-game-nintendo-computer\ 1.png);
-    
-    
+
+
     /* background-position: 100% 40%; */
-    
-    
+
+
 }
 
 .conteudo-banner {
     height: 100%;
     width: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    
+
     /* margin-bottom: 30px; */
     backdrop-filter: blur(3px);
-    
+
     padding-bottom: 50px;
 }
 
@@ -144,10 +144,10 @@ header div.container-grid {
     font-weight: 100;
     color: white;
     font-size: 30px;
-    
-    
+
+
     text-align: center;
-    
+
     /* margin-bottom: 20px; */
 }
 
@@ -155,7 +155,7 @@ header div.container-grid {
     background-color: var(--roxo-insugame);
     width: 200px;
     height: 150px;
-    
+
     margin: 100px 600px 0 600px;
     align-items: center;
     padding: 15px 50px;
@@ -191,31 +191,23 @@ header div.container-grid {
 
 .banner-cases {
     margin-top: 50px;
-<<<<<<< HEAD
-   
 
 
 
 
 
-=======
-    padding: 0px 200px 0 200px;
->>>>>>> c1264407d15f64ff55cb9a2b97381e383ba87d2a
+
 }
 
-<<<<<<< HEAD
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+
     margin: 0 auto;
-    
+
 }
 
-.container-card{
-    width: 385px;
 
-    display: flex;
-    justify-content: space-between;
-}
-=======
->>>>>>> c1264407d15f64ff55cb9a2b97381e383ba87d2a
 .banner-cases h2 {
     background-color: var(--roxo-insugame);
     width: 100%;
@@ -252,7 +244,7 @@ header div.container-grid {
 
 
 
-    padding: 70px 30px 80px 40px;
+    padding: 70px 40px 80px 40px;
 
     border-radius: 30px;
 
@@ -268,8 +260,8 @@ header div.container-grid {
 .cases1 img {
     display: flex;
 
-
-    width: 500px;
+    height: 250px;
+    width: 450px;
 
     border-radius: 30px;
     margin-left: 30px;
@@ -286,9 +278,9 @@ header div.container-grid {
     color: white;
     font-size: 35px;
 
-    
 
-    margin-bottom: 10px;
+
+    margin-bottom: 40px;
 
 }
 
@@ -306,7 +298,7 @@ header div.container-grid {
 
 
 
-    padding: 70px 0 80px 40px;
+    padding: 70px 40px 80px 40px;
 
     border-radius: 30px;
 
@@ -319,7 +311,6 @@ header div.container-grid {
     font-size: 35px;
 
     margin-right: 30px;
-    margin-bottom: 50px;
 
 
 
@@ -332,8 +323,8 @@ header div.container-grid {
 
     display: flex;
 
-
-    width: 400px;
+    height: 250px;
+    width: 450px;
 
     border-radius: 30px;
     margin-left: 20px;
@@ -341,6 +332,12 @@ header div.container-grid {
 
 }
 
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
 
 #contato h2 {
     font-family: 'Anton';
@@ -378,7 +375,7 @@ header div.container-grid {
 .campo {
     margin-top: 20px;
     margin-bottom: 30px;
-
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -409,7 +406,7 @@ header div.container-grid {
 
 #contato .campo input {
     font-family: 'Teko';
-    width: 900px;
+    width: 80%;
     height: 60px;
     border-radius: 30px;
 
@@ -422,20 +419,14 @@ header div.container-grid {
 
 
 }
-.container-grid #botao{
-  
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-
-
 .botao {
 
     background-color: var(--roxo-insugame);
     width: 200px;
     height: 150px;
-    
+
+    display: grid;
+    justify-content: center;
     display: flex;
     align-items: center;
     padding: 15px 50px;
@@ -450,10 +441,9 @@ header div.container-grid {
 .botao:hover {
     transform: translateY(-5px);
 
-
 }
 
-.botao h2{
+.botao h2 {
     font-family: 'Anton';
     color: white;
 
@@ -463,6 +453,13 @@ header div.container-grid {
     text-transform: uppercase;
 
     font-weight: 50;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+
+    margin: 0 auto;
 }
 
 #sobre h2 {
@@ -513,7 +510,7 @@ header div.container-grid {
     align-items: center;
 
     width: 60%;
-    display: flex;
+    display: grid;
     border-radius: 30px;
 
 
@@ -527,7 +524,8 @@ header div.container-grid {
     border-radius: 30px;
     width: 450px;
 
-    margin-left: 30%;
+   
+    margin: 0 auto;
     height: 400px;
     align-items: center;
     display: flex;
@@ -549,10 +547,7 @@ footer .contato h2 {
     color: white;
 
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> c1264407d15f64ff55cb9a2b97381e383ba87d2a
 .contato {
     background-color: var(--roxo-insugame);
     width: 100%;
@@ -572,7 +567,7 @@ footer .contato h2 {
 
 }
 
-.conteudo-contato{
+.conteudo-contato {
     display: grid;
     justify-content: center;
 }
@@ -630,35 +625,64 @@ footer p {
     }
 
     .cases1 img {
-        margin-left: none;
-        margin-right: 10px;
-        width: 450px;
+        margin-left: 0;
+
+        width: 100%;
         margin-top: 0;
+    }
+
+    .cases1 p {
+        margin-top: 50px;
     }
 
     .cases1 {
         display: flex;
         flex-direction: column-reverse;
         width: 45%;
-        height: 585px;
+        height: 550px;
         align-items: center;
-        padding: 50px 30px 80px 40px;
+        padding: 50px 30px 60px 40px;
     }
 
     .cases2 {
         display: flex;
         flex-direction: column-reverse;
         width: 45%;
-        height: 585px;
+        height: 550px;
         align-items: center;
-        padding: 50px 30px 80px 40px;
+        padding: 50px 30px 60px 40px;
     }
 
     .cases2 img {
-        margin-left: none;
-        width: 450px;
+        margin-left: 0;
+        width: 100%;
+        height: 55%;
         margin-top: 20px;
 
+    }
+
+    .cases2 p {
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .cases1 p {
+        font-size: 30px;
+        margin-bottom: 10px;
+
+    }
+    .cases1 img{
+        height: 50%;
+    }
+    .cases2 p {
+        margin-bottom: 0 ;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    #contato .campo input{
+        width: 850px;
     }
 
 }
