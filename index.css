@@ -377,6 +377,7 @@ header div.container-grid {
     margin-bottom: 30px;
     width: 100%;
 
+    align-items: center;
     display: flex;
     flex-direction: column;
 
@@ -419,6 +420,7 @@ header div.container-grid {
 
 
 }
+
 .botao {
 
     background-color: var(--roxo-insugame);
@@ -524,7 +526,7 @@ header div.container-grid {
     border-radius: 30px;
     width: 450px;
 
-   
+
     margin: 0 auto;
     height: 400px;
     align-items: center;
@@ -591,6 +593,14 @@ footer p {
     font-family: 'Anton';
     font-size: 40px;
     color: white;
+}
+
+#icone-barras {
+    display: none;
+}
+
+.menu-fechado {
+    display: none;
 }
 
 @media screen and (max-width: 1200px) {
@@ -666,23 +676,229 @@ footer p {
     }
 
 }
+
 @media screen and (max-width: 1000px) {
     .cases1 p {
         font-size: 30px;
         margin-bottom: 10px;
 
     }
-    .cases1 img{
+
+    .cases1 img {
         height: 50%;
     }
+
     .cases2 p {
-        margin-bottom: 0 ;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    header {
+        position: relative;
+    }
+
+    .menu {
+        flex-direction: column;
+        height: 500px;
+        width: 100vw;
+
+        position: absolute;
+        left: 0px;
+        top: 70px;
+        z-index: 1;
+        border-radius: 0;
+
+
+    }
+
+    .menu a:hover {
+        color: #FF8A00;
+        font-size: 25px;
+        transition: text-decoration 500ms ease;
+    }
+
+    header button {
+        width: 50px;
+
+        display: unset;
+
+        background: none;
+        border: none;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .conteudo-banner h1 {
+        font-size: 40px;
+
+    }
+
+    .cases1 img {
+        width: 250px;
+
+    }
+
+    .cases1 {
+        padding: 50px 30px 50px 40px;
+        width: 300px;
+    }
+
+    .cases1 p {
+        margin-top: 30px;
+    }
+
+    .cases2 img {
+        width: 250px;
+
+    }
+
+    .cases2 {
+        padding: 50px 30px 50px 40px;
+        width: 300px;
+    }
+
+    .cases2 p {
+        margin-top: 30px;
+    }
+
+    #contato h2 {
+        font-size: 30px;
+        height: 80px;
+    }
+
+    .banner-cases h2 {
+        font-size: 30px;
+        height: 80px;
+    }
+
+    .botao {
+        height: 130px;
+    }
+
+    #sobre h2 {
+        font-size: 30px;
+        height: 80px;
+    }
+
+    #sobre p {
+        font-size: 30px;
+    }
+
+    .imagem {
+        height: 350px;
+        width: 350px;
+    }
+
+    .icones img {
+        width: 50px;
+    }
+
+    footer p {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .botao-banner {
+        height: 130px;
+        margin: 70px 600px 0 600px;
+    }
+
+    .botao-banner h3 {
+        font-size: 35px;
     }
 
 }
-@media screen and (max-width: 900px) {
-    #contato .campo input{
-        width: 850px;
+
+@media screen and (max-width: 400px) {
+    #logo {
+        width: 55px;
     }
+
+    #icone-barras {
+        width: 55px;
+    }
+
+    .conteudo-banner h1 {
+        font-size: 35px;
+    }
+
+    .conteudo-banner h2 {
+        font-size: 25px;
+    }
+
+    .banner-cases h2 {
+        height: 60px;
+        border-radius: 20px;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    #contato h2 {
+        height: 60px;
+        border-radius: 20px;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    #contato .campo input {
+        border-radius: 25px;
+    }
+
+    #contato .campo label {
+        font-size: 25px;
+    }
+
+    #sobre h2 {
+        height: 60px;
+        border-radius: 20px;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    #sobre p {
+        font-size: 25px;
+    }
+
+    .imagem {
+        height: 300px;
+        width: 300px;
+    }
+
+    footer p {
+        font-size: 25px;
+    }
+
+    .icones img {
+        width: 40px;
+        margin: 60px 10px 0 20px;
+
+    }
+}
+@media screen and (max-width: 320px){
+    .cases1{
+        width: 270px;
+    }
+
+    .cases1 img {
+        width: 230px;
+    }
+    
+    .cases2{
+        width: 270px;
+    }
+    .cases2 img {
+        width: 230px;
+    }
+    .imagem {
+        height: 255px;
+        width: 255px;
+}   
 
 }
