@@ -602,6 +602,9 @@ footer p {
 .menu-fechado {
     display: none;
 }
+header button{
+    display: none;
+}
 
 @media screen and (max-width: 1200px) {
     .menu a {
